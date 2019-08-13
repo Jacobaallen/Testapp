@@ -1,0 +1,72 @@
+[debug] [2019-08-13T22:00:42.706Z] ----------------------------------------------------------------------
+[debug] [2019-08-13T22:00:42.707Z] Command:       /usr/local/Cellar/node/10.11.0/bin/node /usr/local/bin/firebase init
+[debug] [2019-08-13T22:00:42.707Z] CLI Version:   7.2.2
+[debug] [2019-08-13T22:00:42.707Z] Platform:      darwin
+[debug] [2019-08-13T22:00:42.707Z] Node Version:  v10.11.0
+[debug] [2019-08-13T22:00:42.708Z] Time:          Tue Aug 13 2019 18:00:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-08-13T22:00:42.708Z] ----------------------------------------------------------------------
+[debug]
+[debug] [2019-08-13T22:00:42.713Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-13T22:00:42.713Z] > authorizing via signed-in user
+[info]
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jacoballen/Desktop/after-wyncode/inmail/my-app
+
+[info]
+=== Project Setup
+[info]
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add,
+[info] but for now we'll just set up a default project.
+[info]
+[debug] [2019-08-13T22:25:02.021Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-13T22:25:02.022Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token
+ <request body omitted>
+[debug] [2019-08-13T22:25:02.202Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-13T22:25:02.221Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100
+
+[debug] [2019-08-13T22:25:02.663Z] <<< HTTP RESPONSE 200
+[info]
+=== Database Setup
+[info]
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info]
+[debug] [2019-08-13T22:25:20.039Z] Error: EISDIR: illegal operation on a directory, open '/Users/jacoballen/Desktop/after-wyncode/inmail/my-app'
+    at Object.openSync (fs.js:436:3)
+    at Object.writeFileSync (fs.js:1168:35)
+    at Config.writeProjectFile (/usr/local/lib/node_modules/firebase-tools/lib/config.js:179:8)
+    at /usr/local/lib/node_modules/firebase-tools/lib/init/features/database.js:25:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error]
+[error] Error: An unexpected error has occurred.
+[debug] [2019-08-13T22:27:23.533Z] ----------------------------------------------------------------------
+[debug] [2019-08-13T22:27:23.535Z] Command:       /usr/local/Cellar/node/10.11.0/bin/node /usr/local/bin/firebase init
+[debug] [2019-08-13T22:27:23.535Z] CLI Version:   7.2.2
+[debug] [2019-08-13T22:27:23.535Z] Platform:      darwin
+[debug] [2019-08-13T22:27:23.535Z] Node Version:  v10.11.0
+[debug] [2019-08-13T22:27:23.535Z] Time:          Tue Aug 13 2019 18:27:23 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-08-13T22:27:23.535Z] ----------------------------------------------------------------------
+[debug]
+[debug] [2019-08-13T22:27:23.540Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-13T22:27:23.540Z] > authorizing via signed-in user
+[info]
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jacoballen/Desktop/after-wyncode/inmail/my-app
+
+[error]
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or provide a feature with firebase init [feature_name]
