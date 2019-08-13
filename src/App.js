@@ -13,7 +13,12 @@ class App extends Component {
   }
 
   fileuploadHandler = () => {
-    axios.post('')
+    const fd = new FormData();
+    fd.append('image', this.state.selectedFile, this.state.selectedFile.name);
+    axios.post('', fd)
+      .then(res => {
+        console.log(res);
+      });
   }
 
   render() {
